@@ -1,0 +1,1 @@
+give @s armor_stand[custom_name='{"text": "Crafter: Level 1"}',custom_data={place_crafter:true},entity_data={id:"minecraft:armor_stand",Tags:["crafter_lvl1"],Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b},custom_model_data=1]

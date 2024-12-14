@@ -1,0 +1,1 @@
+scoreboard players set $day_active cc_settings 0

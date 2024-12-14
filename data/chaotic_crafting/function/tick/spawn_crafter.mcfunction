@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=crafter_lvl1] at @s run function chaotic_crafting:functional_blocks/place_crafter_lvl1

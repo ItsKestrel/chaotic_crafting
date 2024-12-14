@@ -1,0 +1,6 @@
+{
+    "values": [
+        "chaotic_crafting:load",
+        "chaotic_crafting:util/entity_raycast/load"
+    ]
+}

@@ -1,0 +1,1 @@
+function chaotic_crafting:events/customer_at_rally

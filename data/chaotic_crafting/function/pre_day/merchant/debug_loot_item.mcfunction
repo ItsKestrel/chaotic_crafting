@@ -1,0 +1,1 @@
+$say Item: $(item), Cost: $(cost)

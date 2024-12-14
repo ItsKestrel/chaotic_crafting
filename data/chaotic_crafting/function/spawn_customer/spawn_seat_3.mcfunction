@@ -1,0 +1,2 @@
+execute if score $seat_3 cc_seats matches 0 run summon wandering_trader 2 66 -3 {WanderTarget:{X:14, Y:67, Z:7},HandItems:[{},{}],Invulnerable:1b,Silent:1b,Tags:["new_customer","customer", "not_ordered", "seat_3"],Offers:{Recipes:[]}}
+scoreboard players set $seat_3 cc_seats 1

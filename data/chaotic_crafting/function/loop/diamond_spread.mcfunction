@@ -1,0 +1,2 @@
+execute if score $diamond_ore_spread cc_settings matches 1 run execute as @e[type=marker,tag=diamond_ore_spreader] run function chaotic_crafting:ore_spread/diamond_spread
+schedule function chaotic_crafting:loop/diamond_spread 5s

@@ -1,0 +1,1 @@
+#kill @e[type=minecraft:villager,nbt={Pos:[0.0d,0.0d,0.0d]}]

@@ -1,0 +1,1 @@
+execute if entity @e[tag=find_looking.result] run tag @e remove find_looking.result

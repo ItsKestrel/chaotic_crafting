@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=cc_seat_1] at @s run execute positioned ~ ~ ~ as @e[type=minecraft:wandering_trader,tag=customer,limit=1,distance=..2] at @s run data modify entity @s NoAI set value 1b

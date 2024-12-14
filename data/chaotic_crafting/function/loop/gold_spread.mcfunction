@@ -1,0 +1,2 @@
+execute if score $gold_ore_spread cc_settings matches 1 run execute as @e[type=marker,tag=gold_ore_spreader] run function chaotic_crafting:ore_spread/gold_spread
+schedule function chaotic_crafting:loop/gold_spread 5s

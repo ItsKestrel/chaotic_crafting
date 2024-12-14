@@ -1,0 +1,1 @@
+execute as @e[tag=has_patience] on passengers if entity @s[tag=patienceBar] run function chaotic_crafting:util/patience_bars/update_patience

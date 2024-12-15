@@ -11,6 +11,6 @@
       }
     },
 	"rewards": {
-		"function": "chaotic_crafting:interactions/interact_with_customer"
+		"function": "chaotic_crafting:interactions/interact_with_customer_v2"
 	}
   }

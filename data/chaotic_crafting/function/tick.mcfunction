@@ -1,9 +1,10 @@
 
 #execute if score $game_active cc_settings matches 1 run scoreboard players add $timer cc_timer 1
-#execute if score $game_active cc_settings matches 1 run execute if score $timer cc_timer matches 600.. run execute if score $slots cc_customers matches 1.. run function chaotic_crafting:spawn_customer
+#execute if score $game_active cc_settings matches 1 run execute if score $timer cc_timer matches 600.. run execute if score $slots cc_customers matches 1.. run function chaotic_crafting:customer
 #execute if score $game_active cc_settings matches 1 run execute if score $timer cc_timer matches 1 run function chaotic_crafting:spawn_animals
 
-#execute if score $day_active cc_settings matches 1 run function chaotic_crafting:spawn_customer/spawn_customer_manager
+#execute if score $day_active cc_settings matches 1 run function chaotic_crafting:customer/spawn_customer_manager
+execute if score $day_active cc_settings matches 1 run function chaotic_crafting:customer/customer_manager
 execute if score $day_active cc_settings matches 1 run function chaotic_crafting:day_manager/day_manager
 execute if score $day_active cc_settings matches 1 run function chaotic_crafting:seats/seat_manager
 execute if score $day_active cc_settings matches 1 run function chaotic_crafting:patience/patience_manager

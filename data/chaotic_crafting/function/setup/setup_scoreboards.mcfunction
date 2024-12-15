@@ -30,6 +30,7 @@ scoreboard players set $spawn_cows cc_settings 0
 scoreboard players set $spawn_pigs cc_settings 0
 scoreboard players set $spawn_chickens cc_settings 0
 scoreboard players set $show_seats cc_settings 1
+scoreboard players set $cc_menus_unlocked cc_settings 1
 #Day settings
 scoreboard players set $day_length cc_settings 6000
 scoreboard players set $day cc_settings 1

@@ -1,2 +1,2 @@
-execute if score $day_active cc_settings matches 1 run function chaotic_crafting:spawn_customer/spawn_customer_manager
+execute if score $day_active cc_settings matches 1 run function chaotic_crafting:customer/spawn_customer_manager
 execute if score $day_active cc_settings matches 1 run schedule function chaotic_crafting:loop/start_customer_spawning 1s

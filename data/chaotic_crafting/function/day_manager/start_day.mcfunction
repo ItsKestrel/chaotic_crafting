@@ -11,3 +11,7 @@ execute if score $stone_pile_spawn cc_settings matches 1 run function chaotic_cr
 
 
 #upgrades
+execute if score $coal_deposit_spawn cc_settings matches 1 run function chaotic_crafting:loop/coal_deposit_spawn
+execute if score $iron_ore_spread cc_settings matches 1 run function chaotic_crafting:loop/iron_spread
+execute if score $gold_ore_spread cc_settings matches 1 run function chaotic_crafting:loop/gold_spread
+execute if score $diamond_ore_spread cc_settings matches 1 run function chaotic_crafting:loop/diamond_spread

@@ -1,0 +1,3 @@
+execute if score $day_active cc_settings matches 1 run execute if score $coal_deposit_spawn cc_settings matches 1 run execute as @e[type=marker,tag=cc_coal_deposit] at @s run place template chaotic_crafting:coal_deposit ~ ~ ~
+#execute if score $day_active cc_settings matches 1 run tellraw @a {"text": "Coal spontaneously appeared...", "color": "white"}
+execute if score $day_active cc_settings matches 1 run execute if score $oak_wood_pile_spawn cc_settings matches 1 run schedule function chaotic_crafting:loop/coal_deposit_spawn 240s

@@ -22,5 +22,8 @@ scoreboard objectives remove rm_marker_ray
 kill @e[tag=cc_upgrade_data]
 function chaotic_crafting:setup/set_upgrade_data_marker
 
+kill @e[tag=cc_trade_data]
+function chaotic_crafting:setup/set_trade_data_marker
+
 
 function chaotic_crafting:setup/setup_scoreboards

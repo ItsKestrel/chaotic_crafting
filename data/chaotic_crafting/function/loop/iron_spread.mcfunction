@@ -1,2 +1,2 @@
-execute if score $iron_ore_spread cc_settings matches 1 run execute as @e[type=marker,tag=iron_ore_spreader] run function chaotic_crafting:ore_spread/iron_spread
+execute if score $day_active cc_settings matches 1 run execute if score $iron_ore_spread cc_settings matches 1 run execute as @e[type=marker,tag=iron_ore_spreader] run function chaotic_crafting:ore_spread/iron_spread
 schedule function chaotic_crafting:loop/iron_spread 5s

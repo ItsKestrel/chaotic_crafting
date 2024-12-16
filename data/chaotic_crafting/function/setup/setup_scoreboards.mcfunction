@@ -59,15 +59,16 @@ scoreboard players set $diamond_ore_spread cc_settings 0
 #resource spawning
 scoreboard players set $oak_wood_pile_spawn cc_settings 1
 scoreboard players set $stone_pile_spawn cc_settings 1
+scoreboard players set $coal_deposit_spawn cc_settings 0
 
 #Upgrades
 scoreboard objectives add cc_upgrades dummy
 scoreboard players set $idxUpgrades cc_upgrades 4
-scoreboard players set iron_menu cc_upgrades 0
-scoreboard players set gold_menu cc_upgrades 0
-scoreboard players set diamond_menu cc_upgrades 0
-scoreboard players set keep_inventory cc_upgrades 0
-scoreboard players set wood_menu cc_upgrades 0
+scoreboard players set $iron_menu cc_upgrades 0
+scoreboard players set $gold_menu cc_upgrades 0
+scoreboard players set $diamond_menu cc_upgrades 0
+scoreboard players set $keep_inventory cc_upgrades 0
+scoreboard players set $wood_menu cc_upgrades 0
 
 scoreboard objectives add util dummy
 scoreboard players set $0 util 0

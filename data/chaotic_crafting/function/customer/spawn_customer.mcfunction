@@ -8,6 +8,10 @@ execute store result score $random cc_item run scoreboard players get $out rando
 
 
 execute if score $random cc_item matches 1 run function chaotic_crafting:customer/spawn_trade_item with entity @e[type=marker,tag=cc_trade_data,limit=1] data.custom_data.menus[0]
+execute if score $random cc_item matches 2 run function chaotic_crafting:customer/spawn_trade_item with entity @e[type=marker,tag=cc_trade_data,limit=1] data.custom_data.menus[1]
+execute if score $random cc_item matches 3 run function chaotic_crafting:customer/spawn_trade_item with entity @e[type=marker,tag=cc_trade_data,limit=1] data.custom_data.menus[2]
+execute if score $random cc_item matches 4 run function chaotic_crafting:customer/spawn_trade_item with entity @e[type=marker,tag=cc_trade_data,limit=1] data.custom_data.menus[3]
+execute if score $random cc_item matches 5 run function chaotic_crafting:customer/spawn_trade_item with entity @e[type=marker,tag=cc_trade_data,limit=1] data.custom_data.menus[4]
 
 
 data modify entity @e[type=wandering_trader,tag=new_customer,limit=1] wander_target[0] set from entity @e[type=marker,tag=cc_customer_rally,limit=1] Pos[0]

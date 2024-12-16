@@ -1,2 +1,2 @@
-execute on target run execute if entity @s[tag=!cc_player] run tellraw @a {"text": "Selected Inventory Upgrade"}
-execute on target run execute if entity @s[tag=!cc_player] run function chaotic_crafting:upgrades/upgrade_keep_inv
+execute on target run execute if entity @s[tag=cc_player] run tellraw @a {"text": "Selected Inventory Upgrade"}
+execute on target run execute if entity @s[tag=cc_player] run function chaotic_crafting:upgrades/upgrade_keep_inv

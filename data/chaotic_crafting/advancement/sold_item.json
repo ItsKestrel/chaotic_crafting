@@ -5,12 +5,12 @@
         "conditions": {
           "villager": {
             "type": "minecraft:wandering_trader",
-			"nbt": "{Tags:[\"customer\"]}"
+			      "nbt": "{Tags:[\"customer\"]}"
           }
         }
       }
     },
     "rewards": {
-		"function": "chaotic_crafting:interactions/sold_item"
+		  "function": "chaotic_crafting:interactions/sold_item"
 	}
   }

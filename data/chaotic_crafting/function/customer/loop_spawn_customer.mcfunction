@@ -3,4 +3,4 @@ execute if score $spawn_loop cc_customers > #0 cc_consts run execute if score $c
 scoreboard players remove $spawn_loop cc_customers 1
 scoreboard players add $customers_spawned cc_customers 1
 
-execute if score $spawn_loop cc_customers > #0 cc_consts run function chaotic_crafting:loop/loop_spawn_customer
+execute if score $spawn_loop cc_customers > #0 cc_consts run function chaotic_crafting:customer/loop_spawn_customer

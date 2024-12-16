@@ -1,0 +1,78 @@
+{
+	"type": "minecraft:barter",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"conditions": [],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "upgrade": "chaotic_crafting:util/gui/upgrades/menu_item_upgrade_iron"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "upgrade": "chaotic_crafting:util/gui/upgrades/menu_item_upgrade_gold"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "upgrade": "chaotic_crafting:util/gui/upgrades/menu_item_upgrade_diamond"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "upgrade": "chaotic_crafting:util/gui/upgrades/menu_item_upgrade_wood"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "upgrade": "chaotic_crafting:util/gui/upgrades/menu_item_upgrade_keep_inv"
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"functions": []
+}

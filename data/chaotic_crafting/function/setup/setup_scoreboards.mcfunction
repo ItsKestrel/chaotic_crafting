@@ -11,6 +11,7 @@ scoreboard players set $current_customer cc_customers 0
 scoreboard players set $customers_served cc_customers 0
 scoreboard players set $patience_expired cc_customers 0
 scoreboard players set $bell_rang cc_customers 0
+scoreboard players set $item_sold cc_customers 0
 
 scoreboard objectives add cc_game dummy
 scoreboard players add Day cc_game 1
@@ -19,6 +20,14 @@ scoreboard players add FailedOrders cc_game 0
 scoreboard players add Points cc_game 0
 scoreboard players add Players cc_game 0
 
+scoreboard objectives add cc_gui dummy
+scoreboard players add $gui_open cc_gui 0
+
+scoreboard objectives add cc_planning_phase dummy
+scoreboard players add $planning_phase_active cc_planning_phase 0
+scoreboard players add $upgrade_phase_active cc_planning_phase 0
+scoreboard players add $merchant_spawned cc_planning_phase 0
+
 scoreboard objectives add cc_settings dummy
 #game settings
 scoreboard players set $menu cc_settings 0
@@ -26,9 +35,6 @@ scoreboard players set $game_active cc_settings 0
 scoreboard players set $rally_patience cc_settings 3000
 scoreboard players set $ordering_patience cc_settings 1200
 scoreboard players set $waiting_patience cc_settings 2400
-scoreboard players set $spawn_cows cc_settings 0
-scoreboard players set $spawn_pigs cc_settings 0
-scoreboard players set $spawn_chickens cc_settings 0
 scoreboard players set $show_seats cc_settings 1
 scoreboard players set $cc_menus_unlocked cc_settings 1
 #Day settings
@@ -53,6 +59,15 @@ scoreboard players set $diamond_ore_spread cc_settings 0
 #resource spawning
 scoreboard players set $oak_wood_pile_spawn cc_settings 1
 scoreboard players set $stone_pile_spawn cc_settings 1
+
+#Upgrades
+scoreboard objectives add cc_upgrades dummy
+scoreboard players set $idxUpgrades cc_upgrades 4
+scoreboard players set iron_menu cc_upgrades 0
+scoreboard players set gold_menu cc_upgrades 0
+scoreboard players set diamond_menu cc_upgrades 0
+scoreboard players set keep_inventory cc_upgrades 0
+scoreboard players set wood_menu cc_upgrades 0
 
 scoreboard objectives add util dummy
 scoreboard players set $0 util 0
@@ -106,12 +121,15 @@ scoreboard players set #41 cc_consts 41
 scoreboard players set #38 cc_consts 38
 scoreboard players set #34 cc_consts 34
 scoreboard players set #31 cc_consts 31
+scoreboard players set #30 cc_consts 30
 scoreboard players set #28 cc_consts 28
 scoreboard players set #25 cc_consts 25
 scoreboard players set #22 cc_consts 22
+scoreboard players set #20 cc_consts 20
 scoreboard players set #19 cc_consts 19
 scoreboard players set #16 cc_consts 16
 scoreboard players set #12 cc_consts 12
+scoreboard players set #10 cc_consts 10
 scoreboard players set #9 cc_consts 9
 scoreboard players set #6 cc_consts 6
 scoreboard players set #5 cc_consts 5

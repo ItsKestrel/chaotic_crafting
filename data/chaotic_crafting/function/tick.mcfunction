@@ -10,6 +10,8 @@ execute if score $day_active cc_settings matches 1 run function chaotic_crafting
 execute if score $day_active cc_settings matches 1 run function chaotic_crafting:patience/patience_manager
 execute if score $day_active cc_settings matches 1 run function chaotic_crafting:events/event_manager
 
+execute if score $day_active cc_settings matches 0 run function chaotic_crafting:planning_phase/planning_phase_manager
+
 
 function chaotic_crafting:util/find_looking_wandering_trader
 

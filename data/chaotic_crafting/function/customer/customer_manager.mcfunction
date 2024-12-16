@@ -28,3 +28,7 @@ execute if score $customer_ratio util <= $day_passed_ratio util run function cha
 
 #check for satisfaction LAGGY
 #execute as @e[type=wandering_trader,tag=customer] run function chaotic_crafting:customer/remove_order
+
+#check for sold item
+#execute if score $item_sold cc_customers > #0 cc_consts run execute as @e[type=wandering_trader,tag=customer] run function chaotic_crafting:customer/remove_order
+#execute if score $item_sold cc_customers > #0 cc_consts run scoreboard players set $item_sold cc_customers 0

@@ -8,7 +8,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:crafter",
-					"weight": 10,
+					"weight": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_custom_data",
@@ -19,14 +19,94 @@
                                 },
 								"cost": {
 									"id": "minecraft:emerald",
-									"count": 10
+									"count": 20
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crafting_table",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "item": {
+                                    "id": "minecraft:crafting_table",
+                                    "count": 1
+                                },
+								"cost": {
+									"id": "minecraft:emerald",
+									"count": 5
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blast_furnace",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "item": {
+                                    "id": "minecraft:blast_furnace",
+                                    "count": 1
+                                },
+								"cost": {
+									"id": "minecraft:emerald",
+									"count": 15
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "item": {
+                                    "id": "minecraft:item_frame",
+                                    "count": 1
+                                },
+								"cost": {
+									"id": "minecraft:emerald",
+									"count": 5
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stonecutter",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "item": {
+                                    "id": "minecraft:stonecutter",
+                                    "count": 1
+                                },
+								"cost": {
+									"id": "minecraft:emerald",
+									"count": 5
 								}
 							}
 						}
 					]
 				}
 			],
-			"rolls": 1
+			"rolls": 3
 		}
 	],
 	"functions": []

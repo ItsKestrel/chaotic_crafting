@@ -1,3 +1,3 @@
 execute if score $day_active cc_settings matches 1 run execute if score $stone_pile_spawn cc_settings matches 1 run execute as @e[type=marker,tag=cc_stone_pile] at @s run place template chaotic_crafting:stone_pile ~ ~ ~
-tellraw @a {"text": "A stone delivery has arrived.", "color": "white"}
+execute if score $day_active cc_settings matches 1 run tellraw @a {"text": "A stone delivery has arrived.", "color": "white"}
 execute if score $day_active cc_settings matches 1 run execute if score $stone_pile_spawn cc_settings matches 1 run schedule function chaotic_crafting:loop/stone_pile_spawn 180s

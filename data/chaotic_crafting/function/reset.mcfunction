@@ -19,7 +19,8 @@ scoreboard objectives remove cc_diamond_ore_mined
 scoreboard objectives remove cc_crafter_ray
 scoreboard objectives remove rm_marker_ray
 
-
+kill @e[tag=cc_upgrade_data]
+function chaotic_crafting:setup/set_upgrade_data_marker
 
 
 function chaotic_crafting:setup/setup_scoreboards

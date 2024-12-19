@@ -1,3 +1,0 @@
-execute if score $day_active cc_settings matches 1 run execute if score $oak_wood_pile_spawn cc_settings matches 1 run execute as @e[type=marker,tag=cc_oak_log_pile] at @s run place template chaotic_crafting:oak_log_pile_alt ~ ~ ~
-execute if score $day_active cc_settings matches 1 run tellraw @a {"text": "A log delivery has arrived.", "color": "white"}
-execute if score $day_active cc_settings matches 1 run execute if score $oak_wood_pile_spawn cc_settings matches 1 run schedule function chaotic_crafting:loop/oak_pile_spawn 120s

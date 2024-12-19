@@ -1,4 +1,4 @@
-tellraw @a {"text": "Searching for Crafter."}
+#tellraw @a {"text": "Searching for Crafter."}
 tag @s add find_crafter
 scoreboard players set #hit cc_crafter_ray 0
 scoreboard players set #distance cc_crafter_ray 0

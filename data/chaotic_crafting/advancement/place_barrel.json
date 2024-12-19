@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "barrel"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "function": "chaotic_crafting:block_tracker/barrel/place_barrel"
+    }
+  }

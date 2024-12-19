@@ -60,6 +60,7 @@ scoreboard players set $diamond_ore_spread cc_settings 0
 scoreboard players set $oak_wood_pile_spawn cc_settings 1
 scoreboard players set $stone_pile_spawn cc_settings 1
 scoreboard players set $coal_deposit_spawn cc_settings 0
+scoreboard players set $all_wood_spawn cc_settings 0
 
 #Upgrades
 scoreboard objectives add cc_upgrades dummy
@@ -149,7 +150,12 @@ scoreboard objectives add cc_crafter_broken minecraft.mined:minecraft.crafter
 scoreboard objectives add cc_iron_ore_mined minecraft.mined:minecraft.iron_ore
 scoreboard objectives add cc_gold_ore_mined minecraft.mined:minecraft.gold_ore
 scoreboard objectives add cc_diamond_ore_mined minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add cc_barrel_broken minecraft.mined:minecraft.barrel
+scoreboard objectives add cc_chest_broken minecraft.mined:minecraft.chest
 
 #Find Crafter Ray
 scoreboard objectives add cc_crafter_ray dummy
 scoreboard objectives add rm_marker_ray dummy
+
+#Find Blocks
+scoreboard objectives add cc_block_ray dummy

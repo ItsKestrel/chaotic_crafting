@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [{
+          "items": ["emerald"]
+        }]
+      }
+    }
+  },
+  "rewards": {
+    "function": "chaotic_crafting:util/replace_emerald"
+  }
+}

@@ -1,4 +1,4 @@
-tellraw @s {"text": "Placed Crafter."}
+#tellraw @s {"text": "Placed Crafter."}
 function chaotic_crafting:util/find_crafter/start_crafter_ray
 
 #Marker

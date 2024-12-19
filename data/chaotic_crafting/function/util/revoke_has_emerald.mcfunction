@@ -1,0 +1,1 @@
+advancement revoke @a only chaotic_crafting:has_emerald

@@ -1,4 +1,4 @@
-tellraw @a {"text": "Centering Entity"}
+#tellraw @a {"text": "Centering Entity"}
 # Center an entity on its current block (x and z coordinates)
 execute store result score $x cc_temp run data get entity @s Pos[0] 1
 execute store result score $y cc_temp run data get entity @s Pos[1] 1

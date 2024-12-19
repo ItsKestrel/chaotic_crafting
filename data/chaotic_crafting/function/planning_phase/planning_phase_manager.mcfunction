@@ -1,6 +1,8 @@
 scoreboard players operation #day3 cc_temp = $day cc_settings
 scoreboard players operation #day3 cc_temp %= #3 cc_consts
 
+gamemode adventure @a[tag=cc_player]
+
 #non-3rd day
 execute unless score #day3 cc_temp matches 0 run execute if score $planning_phase_active cc_planning_phase matches 0 run function chaotic_crafting:planning_phase/planning_phase
 

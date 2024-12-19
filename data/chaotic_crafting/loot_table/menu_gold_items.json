@@ -1,0 +1,193 @@
+{
+	"type": "minecraft:barter",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"conditions": [],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_pickaxe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_pickaxe",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_shovel",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_shovel",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_axe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_axe",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_hoe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_hoe",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_sword",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_sword",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_helmet",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_helmet",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 3
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_chestplate",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_chestplate",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 5
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_leggings",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_leggings",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 4
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_boots",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:golden_boots",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 3
+								}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"functions": []
+}

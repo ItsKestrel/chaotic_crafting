@@ -1,0 +1,193 @@
+{
+	"type": "minecraft:barter",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"conditions": [],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_pickaxe",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_shovel",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_shovel",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_axe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_axe",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_hoe",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_hoe",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_sword",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_helmet",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_helmet",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 3
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_chestplate",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_chestplate",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 5
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_leggings",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 4
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+                                "cost": {
+                                    "id": "minecraft:diamond_boots",
+                                    "count": 1
+                                },
+								"item": {
+									"id": "minecraft:emerald",
+									"count": 3
+								}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"functions": []
+}

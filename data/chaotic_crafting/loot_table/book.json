@@ -1,0 +1,139 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:written_book_content": {
+									"title": "Chaotic Crafting V0.2.0",
+									"author": "ItsKestrel"
+								},
+								"minecraft:custom_data": {
+									"datapack": "chaotic_crafting"
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								[
+									{
+										"text":"Chaotic Crafting\n\n"
+									},
+									{
+										"text":"NOTE: ","color":"red"
+									},
+									{
+										"text":"Please read following pages before using these commands.\n\n"
+									},
+									{
+										"text":"[Generate Workshop]",
+										"color":"dark_gray",
+										"clickEvent": {
+											"action":"run_command",
+											"value":"/trigger cc_gen_workshop set 1"
+										},
+										"hoverEvent": {
+											"action": "show_text",
+											"contents": [
+												{
+													"text": "Generates a 48x48x48 structure! Make sure you have room!",
+													"color": "yellow"
+												}
+											]
+										}
+									},
+									{
+										"text":"\n\n"
+									},
+									{
+										"text":"[Start Game]",
+										"color":"dark_green",
+										"clickEvent": {
+											"action":"run_command","value":"/trigger cc_start_game set 1"
+										}
+									},
+									{
+										"text":"\n\n"
+									},
+									{
+										"text":"[Reset Game]",
+										"color":"dark_red",
+										"clickEvent": {
+											"action":"run_command","value":"/trigger cc_reset set 1"
+										},
+										"hoverEvent": {
+											"action": "show_text",
+											"contents": [
+												{
+													"text": "Resets the entire game. Your workshop will be overwritten! Use after failing a run.",
+													"color": "yellow"
+												}
+											]
+										}
+									}
+								],
+								[
+									{
+										"text":"Description",
+										"bold":true
+									},
+									{
+										"text":"\n\nChaotic Crafting is a chaotic mini-game where you must fulfill customer orders by harvesting the required resources and crafting the desired items.",
+										"bold":false
+									}
+								],
+								[
+									{
+										"text":"Crafting",
+										"bold":true
+									},
+									{
+										"text":"\n\nThe crafting tables in this game are \"interactive\" and only produce 1 item at a time. To use them, place items in the grid on top of the table with right-click, then hit (left-click) the table outside the grid to craft.",
+										"bold":false
+									}
+								],
+								[
+									{
+										"text":"The \"Upgrades\"",
+										"bold":true
+									},
+									{
+										"text":"\n\nEvery 3 days, you will have a choice between 2 upgrades. These can affect anything from customer behavior, to what kinds of items can be crafted. They usually make the game more difficult, but come with some positive effects as well.",
+										"bold":false
+									}
+								],
+								[
+									{
+										"text":"Setup",
+										"bold":true
+									},
+									{
+										"text":"\n\nUsing the commands at the start of this book, generate the starting workshop. This is a 48x48x48 structure, so make sure you have room for it.\nSelect \"Start Game\" to initiate the game, then use the game UI to add each player.",
+										"bold":false
+									},
+									{
+										"text":"\n              (cont. ->)",
+										"bold":false
+									}
+								],
+								[
+									{
+										"text": "The number of players will affect the difficulty somewhat, but it is important that each player interacts with the UI. Then select \"Start Day\" to begin your first day!"
+									}
+								]
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	]
+}

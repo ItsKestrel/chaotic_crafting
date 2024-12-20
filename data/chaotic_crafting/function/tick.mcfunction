@@ -26,3 +26,10 @@ function chaotic_crafting:util/debug/debug_tick
 function chaotic_crafting:util/block_tracker
 
 #function chaotic_crafting:tick/spawn_crafter
+
+
+execute as @a[tag=cc_craft_book] run function chaotic_crafting:replace_book
+
+function chaotic_crafting:book_commands/gen_workshop
+function chaotic_crafting:book_commands/start_game
+function chaotic_crafting:book_commands/reset

@@ -1,0 +1,1 @@
+loot give @s loot chaotic_crafting:book

@@ -5,4 +5,4 @@ scoreboard players set $day_timer cc_timer 0
 
 function chaotic_crafting:util/kill_all_customers
 
-function chaotic_crafting:reset
+#function chaotic_crafting:reset

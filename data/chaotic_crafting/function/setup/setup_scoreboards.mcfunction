@@ -159,3 +159,8 @@ scoreboard objectives add rm_marker_ray dummy
 
 #Find Blocks
 scoreboard objectives add cc_block_ray dummy
+
+#Book Commands
+scoreboard objectives add cc_gen_workshop trigger
+scoreboard objectives add cc_start_game trigger
+scoreboard objectives add cc_reset trigger

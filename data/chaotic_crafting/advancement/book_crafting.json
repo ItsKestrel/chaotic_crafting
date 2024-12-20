@@ -1,0 +1,30 @@
+{
+  "parent": "chaotic_crafting:root",
+  "criteria": {
+    "craft_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "predicates": {
+              "minecraft:written_book_content": {
+                "title": "Chaos"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_book"
+    ]
+  ],
+  "rewards": {
+    "function": "chaotic_crafting:craft_book"
+  }
+}

@@ -1,1 +1,1 @@
-place template chaotic_crafting:stage1_v1 ~-48 ~-39 ~ none none
+place template chaotic_crafting:stage1_v2 ~-47 ~-39 ~-1 none none
